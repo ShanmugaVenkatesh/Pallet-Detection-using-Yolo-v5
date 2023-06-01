@@ -3,19 +3,19 @@
 # Description about Depth sensing camera
    A depth-sensing camera, also known as a 3D camera or depth camera, is a device that captures depth information along with the traditional 2D imagery. Unlike regular cameras that capture only color or grayscale images, depth-sensing cameras measure the distance from the camera to various points in the scene, providing depth information for each pixel or point.
    
- # Depth sensing cameras use various technologies to estimate the distance or depth. Some common depth sensing technologies include:
+ ## Depth sensing cameras use various technologies to estimate the distance or depth. Some common depth sensing technologies include:
   1.Time-of-Flight (ToF): ToF cameras emit a light signal and measure the time it takes for the signal to bounce back from objects in the scene. By calculating the time-of-flight for each pixel, the camera determines the distance and creates a depth map.
 
   2. Structured Light: Cameras that employ structured light project a pattern of infrared light onto the scene and analyze the deformation of the pattern on the objects. By analyzing the deformation, the camera calculates depth information and generates a depth map.
 
   3.Stereo Vision: Stereo cameras use two or more camera lenses placed apart to capture images from different viewpoints. By comparing the differences in the images, the camera calculates depth through triangulation.
 
-# Intel Realsense 435i (Advanced Depth sensing camera)
+## Intel Realsense 435i (Advanced Depth sensing camera)
 The Intel RealSense Camera 435i is an advanced depth-sensing camera designed and manufactured by Intel. It is part of the Intel RealSense series, which includes a range of depth cameras used for various applications such as robotics, augmented reality, virtual reality, and computer vision.
 
 The RealSense Camera 435i utilizes an active depth sensor based on structured light technology. It projects a pattern of infrared light onto the scene and measures the distortion of the pattern to calculate the depth information. This enables the camera to create accurate 3D depth maps of the environment.
 
-# Key features of the Intel RealSense Camera 435i include:
+## Key features of the Intel RealSense Camera 435i include:
 
    Depth Sensing: 
       It provides accurate depth information for capturing and analyzing the 3D geometry of objects and environments.
