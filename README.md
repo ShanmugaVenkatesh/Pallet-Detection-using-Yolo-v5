@@ -34,6 +34,30 @@ The RealSense Camera 435i utilizes an active depth sensor based on structured li
       
    Compatibility: 
       The camera is compatible with various operating systems such as Windows, Linux, and macOS.
+      
+## Components of Intel Realsense 435i:
+The main components of the Intel RealSense Camera 435i are:
+
+   #### 1.Depth Sensor: 
+         The depth sensor is the core component of the camera responsible for capturing depth information. The RealSense 435i utilizes an active depth sensing technology, such as structured light, to project infrared patterns onto the scene and measure the distortion of the patterns for depth calculation.
+
+   #### 2.RGB Sensor: 
+         Along with depth sensing, the camera is equipped with an RGB (Red Green Blue) sensor that captures color or grayscale images of the scene simultaneously. This sensor enables synchronized capture of both depth and color data.
+
+   #### 3.Infrared Projector: 
+         The camera includes an infrared projector that emits infrared light patterns onto the scene. These patterns are used in conjunction with the depth sensor to calculate depth information accurately.
+
+   #### 4.Image Sensor(s): 
+         The camera has one or more image sensors that capture the incoming light and convert it into electrical signals. These sensors are responsible for capturing the color or grayscale images and depth information.
+
+   #### 5.Lens: 
+         The camera is equipped with a lens that focuses the incoming light onto the image sensor(s). The lens helps in capturing clear and accurate images and depth information.
+
+   #### 6.Processing Unit: 
+         The RealSense Camera 435i has an onboard processing unit responsible for processing the incoming depth and color data. This unit performs calculations and algorithms to generate the depth map and synchronize the depth and color data.
+
+   #### 7.Connectivity: 
+         The camera has various connectivity options, typically including USB ports, to connect with a computer or other devices for data transfer and control.
 
 ## RealSense pipeline
    It provides a unified **interface** to manage and process data from Intel RealSense depth cameras.
