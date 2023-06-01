@@ -4,33 +4,36 @@
    A depth-sensing camera, also known as a 3D camera or depth camera, is a device that captures depth information along with the traditional 2D imagery. Unlike regular cameras that capture only color or grayscale images, depth-sensing cameras measure the distance from the camera to various points in the scene, providing depth information for each pixel or point.
    
  ### Depth sensing cameras use various technologies to estimate the distance or depth. Some common depth sensing technologies include:
-  1.Time-of-Flight (ToF): ToF cameras emit a light signal and measure the time it takes for the signal to bounce back from objects in the scene. By calculating the time-of-flight for each pixel, the camera determines the distance and creates a depth map.
+  1.Time-of-Flight (ToF): 
+      ToF cameras emit a light signal and measure the time it takes for the signal to bounce back from objects in the scene. By calculating the time-of-flight for each pixel, the camera determines the distance and creates a depth map.
 
-  2. Structured Light: Cameras that employ structured light project a pattern of infrared light onto the scene and analyze the deformation of the pattern on the objects. By analyzing the deformation, the camera calculates depth information and generates a depth map.
+  2. Structured Light: 
+      Cameras that employ structured light project a pattern of infrared light onto the scene and analyze the deformation of the pattern on the objects. By analyzing the deformation, the camera calculates depth information and generates a depth map.
 
-  3.Stereo Vision: Stereo cameras use two or more camera lenses placed apart to capture images from different viewpoints. By comparing the differences in the images, the camera calculates depth through triangulation.
+  3.Stereo Vision: 
+      Stereo cameras use two or more camera lenses placed apart to capture images from different viewpoints. By comparing the differences in the images, the camera calculates depth through triangulation.
 
 ## Intel Realsense 435i (Advanced Depth sensing camera)
-The Intel RealSense Camera 435i is an advanced depth-sensing camera designed and manufactured by Intel. It is part of the Intel RealSense series, which includes a range of depth cameras used for various applications such as robotics, augmented reality, virtual reality, and computer vision.
+   The Intel RealSense Camera 435i is an advanced depth-sensing camera designed and manufactured by Intel. It is part of the Intel RealSense series, which includes a range of depth cameras used for various applications such as robotics, augmented reality, virtual reality, and computer vision.
 
-The RealSense Camera 435i utilizes an active depth sensor based on structured light technology. It projects a pattern of infrared light onto the scene and measures the distortion of the pattern to calculate the depth information. This enables the camera to create accurate 3D depth maps of the environment.
+   The RealSense Camera 435i utilizes an active depth sensor based on structured light technology. It projects a pattern of infrared light onto the scene and measures the distortion of the pattern to calculate the depth information. This enables the camera to create accurate 3D depth maps of the environment.
 
 ## Key features of the Intel RealSense Camera 435i include:
 
-   Depth Sensing: 
-      It provides accurate depth information for capturing and analyzing the 3D geometry of objects and environments.
+  Depth Sensing: 
+    It provides accurate depth information for capturing and analyzing the 3D geometry of objects and environments.
       
-   RGB Imaging: 
-      The camera also captures color imagery along with depth information, allowing for synchronized depth and color data.
+  RGB Imaging: 
+    The camera also captures color imagery along with depth information, allowing for synchronized depth and color data.
       
-   Wide Field of View (FoV): 
-      The camera has a wide field of view, enabling it to capture a larger area at once.
+  Wide Field of View (FoV): 
+     The camera has a wide field of view, enabling it to capture a larger area at once.
       
-   High Frame Rate: 
-      It supports high frame rates, allowing for real-time capture and analysis of depth and color data.
+  High Frame Rate: 
+     It supports high frame rates, allowing for real-time capture and analysis of depth and color data.
       
-   Software Development Kit (SDK): 
-      Intel provides an SDK and software tools for developers to utilize the camera's capabilities and integrate it into their applications.
+  Software Development Kit (SDK): 
+     Intel provides an SDK and software tools for developers to utilize the camera's capabilities and integrate it into their applications.
       
    Compatibility: 
       The camera is compatible with various operating systems such as Windows, Linux, and macOS.
@@ -39,25 +42,25 @@ The RealSense Camera 435i utilizes an active depth sensor based on structured li
 The main components of the Intel RealSense Camera 435i are:
 
    #### 1.Depth Sensor: 
-         The depth sensor is the core component of the camera responsible for capturing depth information. The RealSense 435i utilizes an active depth sensing technology, such as structured light, to project infrared patterns onto the scene and measure the distortion of the patterns for depth calculation.
+   The depth sensor is the core component of the camera responsible for capturing depth information. The RealSense 435i utilizes an active depth sensing technology, such as structured light, to project infrared patterns onto the scene and measure the distortion of the patterns for depth calculation.
 
    #### 2.RGB Sensor: 
-         Along with depth sensing, the camera is equipped with an RGB (Red Green Blue) sensor that captures color or grayscale images of the scene simultaneously. This sensor enables synchronized capture of both depth and color data.
+   Along with depth sensing, the camera is equipped with an RGB (Red Green Blue) sensor that captures color or grayscale images of the scene simultaneously. This sensor enables synchronized capture of both depth and color data.
 
    #### 3.Infrared Projector: 
-         The camera includes an infrared projector that emits infrared light patterns onto the scene. These patterns are used in conjunction with the depth sensor to calculate depth information accurately.
+   The camera includes an infrared projector that emits infrared light patterns onto the scene. These patterns are used in conjunction with the depth sensor to calculate depth information accurately.
 
    #### 4.Image Sensor(s): 
-         The camera has one or more image sensors that capture the incoming light and convert it into electrical signals. These sensors are responsible for capturing the color or grayscale images and depth information.
+   The camera has one or more image sensors that capture the incoming light and convert it into electrical signals. These sensors are responsible for capturing the color or grayscale images and depth information.
 
    #### 5.Lens: 
-         The camera is equipped with a lens that focuses the incoming light onto the image sensor(s). The lens helps in capturing clear and accurate images and depth information.
+   The camera is equipped with a lens that focuses the incoming light onto the image sensor(s). The lens helps in capturing clear and accurate images and depth information.
 
    #### 6.Processing Unit: 
-         The RealSense Camera 435i has an onboard processing unit responsible for processing the incoming depth and color data. This unit performs calculations and algorithms to generate the depth map and synchronize the depth and color data.
+   The RealSense Camera 435i has an onboard processing unit responsible for processing the incoming depth and color data. This unit performs calculations and algorithms to generate the depth map and synchronize the depth and color data.
 
    #### 7.Connectivity: 
-         The camera has various connectivity options, typically including USB ports, to connect with a computer or other devices for data transfer and control.
+   The camera has various connectivity options, typically including USB ports, to connect with a computer or other devices for data transfer and control.
 
 ## RealSense pipeline
    It provides a unified **interface** to manage and process data from Intel RealSense depth cameras.
