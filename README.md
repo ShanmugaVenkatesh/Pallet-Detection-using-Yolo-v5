@@ -63,6 +63,26 @@ The main components of the Intel RealSense Camera 435i are:
 
    #### 7.Connectivity: 
    The camera has various connectivity options, typically including USB ports, to connect with a computer or other devices for data transfer and control.
+   
+## Depth Calculation
+
+1.Projection: 
+   The RealSense 435i camera projects a pattern of infrared light onto the scene using its infrared projector. The pattern consists of a series of known and structured patterns, such as grids or stripes.
+
+2.Distortion Analysis: 
+   The camera's depth sensor captures the pattern of infrared light as it interacts with the objects in the scene. By analyzing the distortion of the projected pattern, the camera determines the variations in the depth of the objects.
+
+3.Correspondence Matching: 
+   The camera's algorithms perform a matching process, comparing the distorted pattern captured by the depth sensor with the known patterns projected onto the scene. This matching process helps establish correspondence between the projected patterns and their distorted versions, allowing the camera to determine the depth information for each pixel.
+
+4.Triangulation: 
+   Using triangulation techniques, the RealSense 435i camera calculates the depth for each pixel by determining the distance between the camera and the corresponding point in the scene. Triangulation involves analyzing the displacement and deformation of the pattern between the projection and the captured image.
+
+5.Depth Map Generation: 
+   Based on the triangulation calculations, the camera generates a depth map. A depth map is a 2D representation where each pixel corresponds to a specific depth value, indicating the distance from the camera to the object or point in the scene.
+
+6.Synchronization: 
+   The depth map is then synchronized with the captured color or grayscale imagery from the RGB sensor of the camera. This synchronization enables the generation of aligned depth and color data, allowing for accurate spatial analysis and visualization.
 
 ## RealSense pipeline
    It provides a unified **interface** to manage and process data from Intel RealSense depth cameras.
