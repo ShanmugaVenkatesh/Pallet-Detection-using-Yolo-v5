@@ -58,6 +58,8 @@ The main components of the Intel RealSense Camera 435i are:
 
    #### 6.Processing Unit: 
    The RealSense Camera 435i has an onboard processing unit responsible for processing the incoming depth and color data. This unit performs calculations and algorithms to generate the depth map and synchronize the depth and color data.
+   
+   The Intel RealSense Camera 435i features an integrated onboard processing unit called the "Intel RealSense Vision Processor D4." The D4 vision processor is specifically designed to handle the depth sensing and imaging capabilities of the RealSense camera. It performs real-time processing of the incoming depth and color data, enabling efficient and synchronized capture of depth and color information. The D4 vision processor incorporates various algorithms and computational techniques to generate accurate depth maps and provide synchronized depth and color data for a wide range of applications.
 
    #### 7.Connectivity: 
    The camera has various connectivity options, typically including USB ports, to connect with a computer or other devices for data transfer and control.
