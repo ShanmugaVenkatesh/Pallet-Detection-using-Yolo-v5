@@ -3,7 +3,7 @@
 ## Description about Depth sensing camera
    A depth-sensing camera, also known as a 3D camera or depth camera, is a device that captures depth information along with the traditional 2D imagery. Unlike regular cameras that capture only color or grayscale images, depth-sensing cameras measure the distance from the camera to various points in the scene, providing depth information for each pixel or point.
    
- ## Depth sensing cameras use various technologies to estimate the distance or depth. Some common depth sensing technologies include:
+ ### Depth sensing cameras use various technologies to estimate the distance or depth. Some common depth sensing technologies include:
   1.Time-of-Flight (ToF): ToF cameras emit a light signal and measure the time it takes for the signal to bounce back from objects in the scene. By calculating the time-of-flight for each pixel, the camera determines the distance and creates a depth map.
 
   2. Structured Light: Cameras that employ structured light project a pattern of infrared light onto the scene and analyze the deformation of the pattern on the objects. By analyzing the deformation, the camera calculates depth information and generates a depth map.
