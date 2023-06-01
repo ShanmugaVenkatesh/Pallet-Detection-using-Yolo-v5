@@ -1,6 +1,6 @@
 # Pallet-Detection-using-Yolo-v5
 
-# Description about Depth sensing camera
+## Description about Depth sensing camera
    A depth-sensing camera, also known as a 3D camera or depth camera, is a device that captures depth information along with the traditional 2D imagery. Unlike regular cameras that capture only color or grayscale images, depth-sensing cameras measure the distance from the camera to various points in the scene, providing depth information for each pixel or point.
    
  ## Depth sensing cameras use various technologies to estimate the distance or depth. Some common depth sensing technologies include:
