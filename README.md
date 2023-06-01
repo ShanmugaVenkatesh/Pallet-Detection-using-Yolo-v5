@@ -19,14 +19,19 @@ The RealSense Camera 435i utilizes an active depth sensor based on structured li
 
    Depth Sensing: 
       It provides accurate depth information for capturing and analyzing the 3D geometry of objects and environments.
+      
    RGB Imaging: 
       The camera also captures color imagery along with depth information, allowing for synchronized depth and color data.
+      
    Wide Field of View (FoV): 
       The camera has a wide field of view, enabling it to capture a larger area at once.
+      
    High Frame Rate: 
       It supports high frame rates, allowing for real-time capture and analysis of depth and color data.
+      
    Software Development Kit (SDK): 
       Intel provides an SDK and software tools for developers to utilize the camera's capabilities and integrate it into their applications.
+      
    Compatibility: 
       The camera is compatible with various operating systems such as Windows, Linux, and macOS.
 
